@@ -22,6 +22,7 @@ stylesheet = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 # intialize app  
 app = Dash(__name__, external_stylesheets=stylesheet) 
+server = app.server
 
 # data 
 data = data 
